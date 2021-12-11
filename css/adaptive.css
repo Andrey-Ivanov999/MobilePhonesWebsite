@@ -1,0 +1,268 @@
+@media (min-width:1760px) {
+  .contentMain{
+    margin-top: 300px;
+  }
+}
+@media (max-width:1600px) {
+    .sliderPhones {
+        max-width: 880px;
+        min-height: 600px;
+      }
+      .sliderRewievs {
+        max-width: 880px;
+        min-height: 300px;
+      }
+    
+}
+@media (max-width:1180px) {
+.logo{
+  margin-left: 10px;
+  padding-right: 30px !important;
+}
+.contacts{
+  margin-left: 0px;
+  flex-direction: column;
+}
+.nav-links{
+  font-size: 0.8em;
+}
+.header *{
+  padding-right: 10px;
+}
+.text{
+  font-size: 0.8em;
+}
+.content-list{
+  padding-left: 15px;
+}
+.sliderPhones {
+  max-width: 740px;
+  min-height: 600px;
+}
+.sliderRewievs {
+  max-width: 740px;
+  min-height: 300px;
+}
+}
+
+@media (max-width:768px) {
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+    padding-bottom: 20px;
+  }
+  .contacts{
+    margin-left: 0;
+  }
+  .navigation{
+    margin-bottom: 20px;
+  }
+  .content-layer{
+    flex-direction: column;
+  }
+  .content-list{
+    /* flex-direction: row; */
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+  }
+  .phone--info{
+    flex-direction: column-reverse;
+  }
+  .content-list-element{
+padding: 25px 10px 25px 5px;
+border: none;
+border-bottom:1px solid #9fa9a9;
+/* width: 100%; */
+  }
+  .content-list-element.active{
+    border-right: none;
+    border-bottom:6px solid #5dca88;
+    /* transition: 0.5s ease all; */
+
+}
+  .content-text{
+    font-size: 0.8em;
+  }
+   .sliderRewievs {
+    max-width: 620px;
+    min-height: 300px;
+  }
+  .sliderPhones {
+    max-width: 620px;
+    min-height: 600px;
+  }
+  .phone--cart{
+    padding: 10px 60px 5px 10px;
+  }
+  .img-layer{
+    text-align: center;
+  }
+  .btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .contentSubtitle{padding-left: 10px;
+    background: rgba(0, 0, 0, 0.103);
+
+  }
+  .contentTitle{
+    padding-left: 10px;
+    padding-top: 10px;
+    background: rgba(0, 0, 0, 0.103);
+  
+  }
+  .paragraf{
+    padding: 20px 5px;
+    background: rgba(0, 0, 0, 0.103);
+  }
+  .grey{
+    background: none;
+  }
+  .green{
+    background: none;
+  }
+  .sliderPhones {
+    max-width: 300px;
+    min-height: 300px;
+  }
+  .sliderRewievs {
+    max-width: 300px;
+    min-height: 300px;
+  }
+  .slider-img{
+    width: 60%;
+    height: 80%;
+  }
+  .rewiews--quote{
+    text-align: center;
+    line-height: 196%;
+  }
+    
+    
+}
+@media (max-width:680px) {
+  .main-input{
+    min-width: 200px;
+  } 
+
+  .layer{
+    box-sizing: border-box;
+    padding: 50px 75px 0 15px;
+    transition: 0.5s ease all;
+    animation-name:firstBlockApp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    max-width: 520px;
+  }
+  @keyframes firstBlockApp{
+    0%{
+        padding:50px 75px 0 15px;
+
+    }
+    100%{
+padding:50px 35px 0 70px ;
+    }
+}
+.content-title{
+  padding: 50px 10px;
+  text-align: center;
+}
+.content-text{
+  padding: 0 10px;
+}
+.phone-img{
+  width: 70%;
+  height: 70%;
+}
+.headContent{
+padding-bottom: 120px;
+}
+.contentTitle{
+  font-size: 1.6em;
+}
+.contentSubtitle{
+  font-size: 1.4em;
+}
+.phone--cart{
+  padding: 0 10px 0 10px;
+}
+.input-title{
+  font-size: 1.0em;
+}
+@keyframes phoneCartAnimation{
+  0%{
+      padding: 0 10px 0 0px;
+  
+  }
+  100%{
+      padding: 0 10px 0 15px;
+  }
+}
+.footer-help-link{
+  font-size: 0.6em;
+  padding-left: 5px;
+}
+.rewiews__title{
+  text-align: center;
+}
+}
+@media (max-width:320px) {
+  .layer{
+    box-sizing: border-box;
+    padding: 20px 10px 0 5px;
+    transition: 0.5s ease all;
+    animation-name:firstBlockApp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    max-width: 300px;
+  }
+  @keyframes firstBlockApp{
+    0%{
+        padding:20px 10px 0 5px;
+
+    }
+    100%{
+padding:20px 10px 0 15px ;
+    }
+}
+
+  .phone-img{
+    width: 50%;
+    height: 50%;
+  }
+  .content-title{
+    text-align: center;
+  }
+  .phone--cart{
+    padding: 0 40px 0 0px;
+  }
+  @keyframes phoneCartAnimation{
+    0%{
+        padding: 0 40px 0 0px;
+    
+    }
+    100%{
+        padding: 0 40px 0 15px;
+    }
+    }
+
+
+    .content-text{
+      max-width: 280px;
+    }
+    .btn{
+      margin-left: 10px;
+max-width: 140px;
+    }
+    .btn-green{
+      min-width: 110px
+    }
+  
+    .ibg img{
+      object-position: 65%;
+    }
+    
+}
